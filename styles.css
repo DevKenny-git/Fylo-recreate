@@ -1,0 +1,67 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+
+    body {
+        font-size: 14px;
+        font-family: 'Raleway', sans-serif;
+        background-color: hsl(228, 57%, 11%);
+        background-image: url("images/bg-desktop.png");
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container {
+      height: 100vh;
+      width: 100vh;    
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .logo-section {
+      display: flex;
+      flex-direction: column;
+      background-color: hsl(228, 56%, 26%);
+      height: 150px;
+      width: 200px;
+      align-items: center;
+      justify-content: space-evenly;
+      border-radius: 5px;
+      border-top-right-radius: 30px;
+    }
+
+    .icons img{
+        background-color: hsl(228, 57%, 11%);
+        padding: 3px;
+        height: 20px;
+        border-radius: 5px;
+        width: 20px;
+      }
+
+      .meter-section {
+        width: 300px;
+        height: 120px;
+        background-color: hsl(228, 56%, 26%);
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: baseline;
+      }
+
+      .meter-section P {
+          text-align: center;
+          color: white;
+      }
+      .meter-section meter {
+          width: 90%;
+      }
+      .limit {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+
+      .limit p {
+          text-align: center;
+          color: #fff;
+      }
